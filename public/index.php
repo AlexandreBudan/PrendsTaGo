@@ -3,8 +3,8 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 // Initialisation de Twig
-$loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/../templates');
-$twig = new \Twig\Environment($loader);
+// $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/../templates');
+// $twig = new \Twig\Environment($loader);
 
 // Routeur simple
 $path = $_SERVER['REQUEST_URI'];
